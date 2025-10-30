@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificados | Miguel Expedito</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-top">
+                <div class="header-left">
+                    <h1>Certificados e Cursos</h1>
+                </div>
+
+                <div class="header-right">
+                    <a href="https://migueleaferreira.github.io/Meu_Portfolio/" class="header-link">📂 Portfólio</a>
+                    <a href="https://www.linkedin.com/in/miguel-expedito-2aa2a9164/" target="_blank" class="header-link">🔗 LinkedIn</a>
+                    <a href="https://github.com/migueleaferreira" target="_blank" class="header-link">💻 GitHub</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="carousel-container">
+        <button class="btn prev" onclick="scrollCarousel(-1)" aria-label="Anterior">&#10094;</button>
+
+        <div class="carousel" id="carousel">
+
+            <div class="card">
+                <img src="imagens/fiap_devops.PNG" alt="Certificado FIAP DevOps & Agile Culture">
+                <div class="card-content">
+                    <h2>DevOps & Agile Culture (Nano Course)</h2>
+                    <p><strong>Instituição:</strong> FIAP</p>
+                    <p>Nano Course com carga horária de 60 horas sobre cultura DevOps e metodologias Ágeis.</p>
+                    <a href="https://on.fiap.com.br/validar-certificado/" target="_blank">Validar certificado</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="imagens/coursera_askquestion.PNG" alt="Certificado Coursera Ask Questions to Make Data-Driven Decisions">
+                <div class="card-content">
+                    <h2>Ask Questions to Make Data-Driven Decisions</h2>
+                    <p><strong>Instituição:</strong> Google / Coursera</p>
+                    <p>Curso on-line sem créditos focado em tomar decisões orientadas por dados (Programa de cursos integrados).</p>
+                    <a href="https://coursera.org/verify/CKXJQFMCKVF6" target="_blank">Ver certificado</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="imagens/fiap_bi.png" alt="Certificado BI FIAP">
+                <div class="card-content">
+                    <h2>Business Intelligence (BI)</h2>
+                    <p><strong>Instituição:</strong> FIAP</p>
+                    <p>Curso voltado à criação de dashboards e visualização de dados no Power BI.</p>
+                    <a href="#" target="_blank">Ver certificado</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="imagens/coursera_dados.png" alt="Certificado Fundamentos de Dados">
+                <div class="card-content">
+                    <h2>Fundamentos de Dados</h2>
+                    <p><strong>Instituição:</strong> Coursera</p>
+                    <p>Conceitos básicos de análise de dados, SQL e estruturação de informações.</p>
+                    <a href="#" target="_blank">Ver certificado</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="imagens/fiap_python.PNG" alt="Certificado Python Fiap">
+                <div class="card-content">
+                    <h2>Python Development (Nano Course)</h2>
+                    <p><strong>Instituição:</strong> Fiap</p>
+                    <p>Aborda os fundamentos da linguagem Python, essenciais para desenvolvimento, análise de dados e automação de processos. (Carga horária de 80 horas)</p>
+                    <a href="#" target="_blank">Ver certificado</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="imagens/dio_git.png" alt="Certificado Git e GitHub">
+                <div class="card-content">
+                    <h2>Git e GitHub</h2>
+                    <p><strong>Instituição:</strong> DIO</p>
+                    <p>Versionamento de código, criação de repositórios e colaboração em equipe.</p>
+                    <a href="#" target="_blank">Ver certificado</a>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="btn next" onclick="scrollCarousel(1)" aria-label="Próximo">&#10095;</button>
+    </main>
+
+    <footer>
+        <p>Miguel Expedito — Email: miguelferreiiraa@outlook.com — (11)96118-8194</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
